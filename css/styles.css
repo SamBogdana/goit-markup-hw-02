@@ -1,0 +1,116 @@
+/* font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+:root {
+  /* Цвет текста */
+  --primary-text-color: #757575;
+  --secondary-text-color: #212121;
+  --accent-color: #2196f3;
+  --title-text-color: #ffffff;
+  --logo-primary: #000000;
+  --footer-adress-color: rgba(255, 255, 255, 0.6);
+
+  /* Цвет фона*/
+  --bgd-dark: #2f303a;
+  --bgd-main: #e5e5e5;
+  --bgd-secondary: #f5f4fa;
+
+  /* Шрифти */
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+}
+
+body {
+  font-family: var(--main-font);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.main-btn,
+.portgolio-btn {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.list {
+  list-style: none;
+}
+
+/* Header */
+.logo {
+  font-family: var(--secondary-font);
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+
+.logo-primary {
+  color: var(--logo-primary);
+}
+
+.nav-list {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.contacts-link:focus,
+.contacts-link:hover,
+.adress-link:focus,
+.adress-link:hover {
+  color: var(--accent-color);
+}
+
+/* Main */
+
+.hero-title {
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
+}
+.section-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+
+.special-title {
+  color: var(--secondary-text-color);
+}
+
+.team-title {
+  color: var(--secondary-text-color);
+}
+
+/* Footer */
+
+.footer,
+.hero {
+  background-color: var(--bgd-dark);
+}
+
+.logo-secondary,
+.adress-link {
+  color: var(--title-text-color);
+}
+
+.address-item {
+  color: var(--footer-adress-color);
+}
